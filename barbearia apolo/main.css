@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: rgb(185, 158, 82);
+    
+    
+  }
+  
+  li {
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    border-top: 2%;
+    border-bottom: 2%;
+    
+
+  }
+  #imagemLogo{
+    
+      text-align: center;
+      height: auto;
+      max-width: 10%;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
